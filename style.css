@@ -24,3 +24,33 @@ section {
 h2 {
   color: #38bdf8;
 }
+.website-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background: #2563eb;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Prevent browser default purple color */
+.website-btn:link,
+.website-btn:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.website-btn:hover {
+  background: #1d4ed8;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.website-btn:active {
+  color: #ffffff;
+}

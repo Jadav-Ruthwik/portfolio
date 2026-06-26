@@ -181,6 +181,36 @@
         padding: 40px;
         background: #020617;
       }
+      .website-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 3px 8px;
+  background: #2563eb;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Prevent browser default purple color */
+.website-btn:link,
+.website-btn:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.website-btn:hover {
+  background: #1d4ed8;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.website-btn:active {
+  color: #ffffff;
+}
     </style>
   </head>
 
@@ -333,6 +363,53 @@
     <h2 class="section-title">Experience</h2>
 
     <div class="card">
+
+        <div class="exp-header">
+            <div>
+                <h3>Digital Solutions Consultant</h3>
+                <h4>Palle Siri Dairy Farm Startup</h4>
+            </div>
+
+            <span class="exp-date">March 2026</span>
+        </div>
+
+        <p class="exp-tech">
+            Full Stack Development
+        </p>
+
+        <ul>
+            <li>
+                Spearheaded the startup's digital transformation by designing,
+                developing, and deploying its official business website.
+            </li>
+
+            <li>
+                Created a modern online presence that strengthened the company's
+                branding and improved customer engagement.
+            </li>
+
+            <li>
+                Set up and optimized the Google Business Profile and Google Maps
+                listing, increasing local visibility, accessibility, and customer reach.
+            </li>
+
+            <li>
+                Worked closely with stakeholders to deliver a responsive,
+                production-ready website aligned with business goals.
+            </li>
+        </ul>
+
+        <div class="project-buttons">
+            <a href="https://pallesiridairyfarm.vercel.app/"
+               target="_blank"
+               class="website-btn">
+               Visit Website
+            </a>
+        </div>
+
+    </div>
+
+    <div class="card">
         <h3>Frontend Developer Intern</h3>
         <p class="highlight">Infosys Springboard | Feb 2026 – Apr 2026</p>
 
@@ -372,7 +449,7 @@
             </p>
             <a href="https://wastezer0.onrender.com/login"
    target="_blank"
-   class="live-btn">
+   class="website-btn">
    Visit Website
 </a>
         </div>
@@ -385,7 +462,7 @@
             </p>
             <a href="https://smart-space-ai-powered-interior-des-indol.vercel.app/"
    target="_blank"
-   class="live-btn">
+   class="website-btn">
    Visit Website
 </a>
         </div>
@@ -396,8 +473,13 @@
                 AI-powered rental ecosystem with recommendation systems,
                 fraud detection, geolocation, and chatbot support.
             </p>
-        </div>
-
+        
+            <a href="https://github.com/Jadav-Ruthwik/smartrent-frontend.git"
+               target="_blank"
+               class="website-btn">
+               Visit GitHub Repository
+            </a>
+</div>
     </div>
 </section>
 
@@ -418,7 +500,7 @@
         </ul>
         <a href="https://ieeexplore.ieee.org/document/11170770/"
    target="_blank"
-   class="live-btn">
+   class="website-btn">
    View Paper
 </a>
     </div>
